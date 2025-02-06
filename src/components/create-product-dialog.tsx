@@ -66,7 +66,7 @@ export function CreateProductDialog({
         <DialogHeader>
           <DialogTitle>Create New Product</DialogTitle>
           <DialogDescription>
-            Add a new product to your store. Click save when you're done.
+            Add a new product to your store. Click save when you are done.
           </DialogDescription>
         </DialogHeader>
         <div className="grid gap-6 py-4">
