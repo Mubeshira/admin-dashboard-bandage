@@ -1,40 +1,72 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Hackathon Figma-New
+
+## Overview
+This is a Next.js 14 project with various dependencies for authentication, UI components, styling, and data visualization. It includes Clerk for authentication, Radix UI for accessible components, Tailwind CSS for styling, and Sanity for content management.
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+Ensure you have the following installed:
+- [Node.js](https://nodejs.org/) (v16 or later recommended)
+- [Yarn](https://yarnpkg.com/) or [npm](https://www.npmjs.com/)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+### Installation
+Clone the repository and install dependencies:
+```sh
+# Using npm
+npm install
+
+# Or using yarn
+yarn install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Running the Development Server
+Start the development server:
+```sh
+npm run dev
+```
+Then open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Building for Production
+To build the project for production, run:
+```sh
+npm run build
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### Starting the Production Server
+To start the production server:
+```sh
+npm run start
+```
 
-## Learn More
+### Linting
+To run ESLint:
+```sh
+npm run lint
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Dependencies
+### Main Dependencies
+- **Next.js 14**: React framework for server-side rendering and static site generation
+- **React 18**: JavaScript library for building user interfaces
+- **Clerk**: Authentication for Next.js applications
+- **Radix UI**: Accessible UI components
+- **Sanity**: Headless CMS for managing content
+- **Recharts**: Data visualization library
+- **Styled Components**: CSS-in-JS for styling
+- **Tailwind CSS**: Utility-first CSS framework
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Dev Dependencies
+- **TypeScript**: Typed JavaScript
+- **ESLint**: Linting tool for maintaining code quality
+- **PostCSS & Tailwind CSS**: Styling utilities
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## License
+This project is licensed under the MIT License.
 
-## Deploy on Vercel
+## Contributing
+Feel free to submit issues or pull requests to improve the project.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Author
+Created for the Hackathon project, integrating Next.js, Sanity, and Tailwind CSS.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
-"# UI-UX-Hackathon-figma" 
-"# Marketplace-Hackathon-Bandage" 
-"# admin-dashboard" 
-"# admin-dashboard-bandage" 
